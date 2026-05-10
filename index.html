@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -9,8 +10,8 @@
         .card { background-color: #161b22; border: 1px solid #30363d; border-radius: 16px; padding: 25px; text-align: center; width: 90%; max-width: 320px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         h2 { color: #58a6ff; margin: 0 0 10px 0; }
         .step { font-size: 14px; color: #8b949e; margin-bottom: 8px; text-align: left; }
-        .important { color: #f85149; font-weight: bold; }
-        .link-box { background: #0d1117; border: 1px dashed #58a6ff; color: #79c0ff; padding: 12px; border-radius: 8px; font-family: monospace; font-size: 11px; word-break: break-all; margin: 10px 0 20px 0; cursor: pointer; }
+        .important { color: #58a6ff; font-weight: bold; }
+        .link-box { background: #0d1117; border: 1px dashed #58a6ff; color: #79c0ff; padding: 12px; border-radius: 8px; font-family: monospace; font-size: 10px; word-break: break-all; margin: 10px 0 20px 0; cursor: pointer; line-height: 1.4; }
         .btn-open { background-color: #238636; color: white; text-decoration: none; padding: 14px; border-radius: 10px; display: block; font-weight: bold; transition: 0.2s; border: none; width: 100%; box-sizing: border-box; }
         .btn-open:active { background-color: #2ea043; transform: scale(0.98); }
     </style>
@@ -19,27 +20,24 @@
     <div class="card">
         <h2>MASTERPVP ❤️</h2>
         
-        <div class="step">1. Скопируй ссылку:</div>
+        <div class="step">1. Скопируй эту «умную» ссылку:</div>
         <div class="link-box" id="copyBox" onclick="copyToClipboard()">
-            https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt
+            https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt#MASTERPVP❤️VPN%20LTE
         </div>
 
-        <div class="step">2. Открой Happ и нажми <b>«+»</b> (справа сверху).</div>
+        <div class="step">2. Открой Happ, нажми <b>«+»</b> и выбери <b>Add subscription</b>.</div>
         
-        <div class="step">3. Выбери «Add subscription» и заполни поля:</div>
-        <div class="step"> — <span class="important">URL:</span> вставь скопированное.</div>
-        <div class="step"> — <span class="important">Title:</span> напиши <b style="color:#fff;">MASTERPVP❤️VPN LTE</b>.</div>
-        
-        <p style="font-size: 11px; color: #8b949e; margin: 15px 0;">*(Обязательно укажи название, чтобы не запутаться)*</p>
+        <div class="step">3. Вставь ссылку в поле <span class="important">URL</span>.</div>
+        <p style="font-size: 12px; color: #8b949e; margin-bottom: 20px;">Название появится само!</p>
         
         <a href="happ://" class="btn-open">ОТКРЫТЬ HAPP</a>
     </div>
 
     <script>
         function copyToClipboard() {
-            const text = "https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt";
+            const text = "https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt#MASTERPVP❤️VPN%20LTE";
             navigator.clipboard.writeText(text).then(() => {
-                alert("Ссылка скопирована!");
+                alert("Ссылка с названием скопирована!");
             });
         }
     </script>
