@@ -8,34 +8,37 @@
         body { background-color: #0d1117; color: #c9d1d9; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
         .card { background-color: #161b22; border: 1px solid #30363d; border-radius: 16px; padding: 25px; text-align: center; width: 90%; max-width: 320px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         h2 { color: #58a6ff; margin: 0 0 10px 0; }
-        p { font-size: 14px; color: #8b949e; line-height: 1.5; }
-        .link-box { background: #0d1117; border: 1px dashed #58a6ff; color: #79c0ff; padding: 12px; border-radius: 8px; font-family: monospace; font-size: 12px; word-break: break-all; margin: 20px 0; cursor: pointer; }
-        .footer { font-size: 11px; color: #484f58; margin-top: 15px; }
+        p { font-size: 14px; color: #8b949e; margin-bottom: 15px; }
+        .link-box { background: #0d1117; border: 1px dashed #58a6ff; color: #79c0ff; padding: 12px; border-radius: 8px; font-family: monospace; font-size: 11px; word-break: break-all; margin-bottom: 20px; cursor: pointer; }
+        .btn-open { background-color: #238636; color: white; text-decoration: none; padding: 14px; border-radius: 10px; display: block; font-weight: bold; transition: 0.2s; border: none; width: 100%; box-sizing: border-box; }
+        .btn-open:active { background-color: #2ea043; transform: scale(0.98); }
     </style>
 </head>
 <body>
     <div class="card">
         <h2>MASTERPVP ❤️</h2>
-        <p>Кнопка не сработала, поэтому скопируй эту ссылку вручную и вставь в приложении через <b>«+»</b></p>
+        <p>1. Скопируй ссылку ниже:</p>
         
-        <div class="link-box" onclick="copyLink()">
+        <div class="link-box" id="copyBox" onclick="copyToClipboard()">
             https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt
         </div>
 
-        <p style="font-size: 12px;">(Просто зажми и скопируй текст выше)</p>
+        <p>2. Нажми кнопку и добавь её в приложении через «+»:</p>
         
-        <div class="footer">MASTERPVP — Твой личный VPN</div>
+        <a href="happ://" class="btn-open">ОТКРЫТЬ HAPP</a>
     </div>
 
     <script>
-        function copyLink() {
-            const link = "https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt";
-            navigator.clipboard.writeText(link);
-            alert("Ссылка скопирована!");
+        function copyToClipboard() {
+            const text = "https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt";
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Ссылка скопирована!");
+            });
         }
     </script>
 </body>
 </html>
+
 
 
 
