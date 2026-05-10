@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MASTERPVP VPN</title>
+    <title>MASTERPVP</title>
 </head>
-<body style="background: #0f172a; color: white; font-family: -apple-system, sans-serif; text-align: center; padding: 40px 20px;">
-    
-    <div style="background: #1e293b; padding: 30px; border-radius: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-        <h2 style="margin: 0 0 10px 0; color: #38bdf8;">MASTERPVP ❤️ VPN</h2>
-        <p style="color: #94a3b8; font-size: 14px; margin-bottom: 30px;">Нажми кнопку ниже для автоматического добавления серверов</p>
-        
-        <button onclick="addToHapp()" style="background: #38bdf8; color: #0f172a; border: none; padding: 18px 30px; border-radius: 12px; font-weight: bold; font-size: 16px; width: 100%; cursor: pointer;">
-            + Добавить подписку
-        </button>
-    </div>
-
-    <script>
-        function addToHapp() {
-            // Прямая команда для приложения, как у Quattro
-            const configUrl = "https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/main/vpn.txt";
-            const happLink = "happ://add-subscription?url=" + encodeURIComponent(configUrl) + "&title=MASTERPVP";
-            
-            // Пытаемся открыть приложение
-            window.location.href = happLink;
-        }
-    </script>
-
+<body style="background:#0f172a; color:white; font-family:sans-serif; text-align:center; padding-top:50px;">
+    <h2>MASTERPVP ❤️ VPN</h2>
+    <br>
+    <a href="happ://add-subscription?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftvpt053-hub%2FMASTERPVP%2Fmain%2Fvpn.txt&title=MASTERPVP" 
+       style="background:#38bdf8; color:#0f172a; border:none; padding:20px 40px; border-radius:15px; font-weight:bold; font-size:18px; text-decoration:none; display:inline-block;">
+        УСТАНОВИТЬ СЕРВЕРА
+    </a>
 </body>
 </html>
+
 
 
 
