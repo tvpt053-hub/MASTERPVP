@@ -23,5 +23,5 @@ vless://33e9f342-d9c0-0006-bdd3-4b1ffe37042d@46.8.209.180:8443?encryption=none&f
 vless://33e9f342-d9c0-0013-bdd3-4b1ffe37042d@46.8.209.131:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#⚡️🇯🇵 LTE Япония №24 — MASTERPVP❤️VPN
 vless://33e9f342-d9c0-000d-bdd3-4b1ffe37042d@158.160.245.226:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#⭐🇳🇴 LTE Норвегия №29 — MASTERPVP❤️VPN
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@178.248.238.85:14443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#⭐🇳🇴 LTE Норвегия №35 — MASTERPVP❤️VPN
-vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849be6&type=tcp#LTE-эстония/RUTUBE
+vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE-эстония/RUTUBE
 
