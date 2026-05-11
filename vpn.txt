@@ -25,4 +25,6 @@ vless://33e9f342-d9c0-000d-bdd3-4b1ffe37042d@158.160.245.226:8443?encryption=non
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@178.248.238.85:14443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#⭐🇳🇴 LTE Норвегия №35 — MASTERPVP❤️VPN
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE-эстония/MASTERPVP❤️
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@85.192.49.141:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE/Финляндия+gemini 
+vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=firefox&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE-эстония low ping
+vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE-эстония lowping2 
 
