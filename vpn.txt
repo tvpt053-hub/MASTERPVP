@@ -1,6 +1,8 @@
 #profile-title: MASTERPVP❤️VPN
 #subscription-userinfo: total=10737418240;expire=1893456000
+#profile-update-interval: 1
 #remarks: LTE-обход\nОбновляйте подписку!
+
 
 
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@198.16.113.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fr.quattro-tech.ru&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#🇫🇷 LTE Франция — MASTERPVP❤️VPN
