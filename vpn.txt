@@ -1,10 +1,7 @@
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?encryption=none&security=none&type=tcp#ДОСТУП_ДО_6767_ГОДА
-
-
 #profile-title: MASTERPVP❤️VPN
 #profile-update-interval: 1
 #profile-description: LTE-обход белых списков%0AНе забывайте обновлять подписку чтобы сервера не лагали
-#subscription-userinfo: upload=0; download=0; total=10737418240; expire=0
+#subscription-userinfo: upload=0; download=0; total=10737418240; expire=151528656000
 
 
 
