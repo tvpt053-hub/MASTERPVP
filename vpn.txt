@@ -1,3 +1,9 @@
+#profile-title: MASTERPVP❤️VPN
+#profile-update-interval: 1
+#profile-description: LTE-обход белых списков%0AНе забывайте обновлять подписку чтобы сервера не лагали
+
+
+
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@198.16.113.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fr.quattro-tech.ru&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#🇫🇷 LTE Франция — MASTERPVP❤️VPN
 vless://33e9f342-0004-4343-bdd3-4b1ffe37042d@178.248.238.85:15443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#⭐🇳🇱 LTE Нидерланды 1X — MASTERPVP❤️VPN
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@178.248.238.85:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#🇳🇱 Нидерланды X5 — MASTERPVP❤️VPN
