@@ -1,7 +1,8 @@
 #profile-title: MASTERPVP❤️VPN
-#subscription-userinfo: upload=0; download=0; total=10737418240; expire=1893456000
 #profile-update-interval: 1
-#remarks: LTE-обход\nОбновляйте подписку!
+#profile-description: LTE-обход белых списков%0AНе забывайте обновлять подписку чтобы сервера не лагали
+#subscription-userinfo: upload=0; download=0; total=10737418240; expire=0
+
 
 
 
