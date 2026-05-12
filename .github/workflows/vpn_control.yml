@@ -1,0 +1,38 @@
+name: VPN Control Panel
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Выберите действие'
+        required: true
+        default: 'off'
+        type: choice
+        options:
+        - 'off'
+        - 'on'
+
+jobs:
+  switch_vpn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Disable VPN (OFF)
+        if: github.event.inputs.action == 'off'
+        run: |
+          sed -i 's/vless:\/\//OFF_vless:\/\//g' vpn.txt
+          
+      - name: Enable VPN (ON)
+        if: github.event.inputs.action == 'on'
+        run: |
+          sed -i 's/OFF_vless:\/\//vless:\/\//g' vpn.txt
+
+      - name: Save changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "VPN-Robot"
+          git add vpn.txt
+          git commit -m "VPN Control: ${{ github.event.inputs.action }}"
+          git push
+          
