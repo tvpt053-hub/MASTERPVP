@@ -1,5 +1,3 @@
-      
-          
 name: VPN Control Panel
 on:
   workflow_dispatch:
