@@ -11,28 +11,32 @@ on:
         - 'off'
         - 'on'
 
+permissions:
+  contents: write
+
 jobs:
   switch_vpn:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Disable VPN (OFF)
         if: github.event.inputs.action == 'off'
         run: |
-          sed -i 's/vless:\/\//OFF_vless:\/\//g' vpn.txt
+          sed -i 's/vless:\/\//OFF_vless:\/\//g' vpn.txt || echo "Already disabled"
           
       - name: Enable VPN (ON)
         if: github.event.inputs.action == 'on'
         run: |
-          sed -i 's/OFF_vless:\/\//vless:\/\//g' vpn.txt
+          sed -i 's/OFF_vless:\/\//vless:\/\//g' vpn.txt || echo "Already enabled"
 
       - name: Save changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "VPN-Robot"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add vpn.txt
-          git commit -m "VPN Control: ${{ github.event.inputs.action }}"
+          git commit -m "VPN Control: ${{ github.event.inputs.action }}" || echo "No changes to commit"
           git push
+          
           
