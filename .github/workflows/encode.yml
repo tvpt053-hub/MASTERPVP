@@ -1,4 +1,4 @@
-name: Encode VLESS to Base64 with Headers
+name: Encode VLESS to Base64 (Custom Output)
 
 on:
   push:
@@ -15,28 +15,31 @@ jobs:
 
       - name: Build and Encode Subscription
         run: |
-          # 1. Очищаем твой файл links.txt от скрытого мусора Windows
+          # 1. Очищаем твой файл links.txt от скрытого мусора Windows и пустых строк
           sed -i 's/\r//g' links.txt
           sed -i '/^$/d' links.txt
           
-          # 2. Создаем правильную структуру подписки в одном временном файле
+          # 2. Создаем структуру подписки во временном файле
           echo "#PROFILE" > temp.txt
           echo "#profile-title: 💖MASTERVP-VPN💖" >> temp.txt
           echo "#profile-update-interval: 1" >> temp.txt
           echo "#subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600" >> temp.txt
           echo "" >> temp.txt
           
-          # 3. Добавляем твои чистые сервера из links.txt снизу
+          # 3. Добавляем твои сервера из links.txt снизу
           cat links.txt >> temp.txt
           
-          # 4. Кодируем всё это дело в твой привычный sub.txt
-          base64 -w 0 temp.txt > sub.txt
+          # 4. Кодируем всё в твой новый секретный файл vpn.txtMASTER
+          base64 -w 0 temp.txt > vpn.txtMASTER
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add sub.txt
-          git diff-index --quiet HEAD || git commit -m "Исправление нативных плашек внутри Base64"
+          
+          # Добавляем именно твой новый файл vpn.txtMASTER
+          git add vpn.txtMASTER
+          
+          git diff-index --quiet HEAD || git commit -m "Кодирование подписки в файл vpn.txtMASTER"
           git push
           
