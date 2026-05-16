@@ -1,4 +1,4 @@
-name: Encode VLESS to Base64 with Headers
+name: Encode VLESS to Base64 with Embedded Profile
 
 on:
   push:
@@ -13,13 +13,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Encode links to Base64
+      - name: Prepare and Encode Subscription
         run: |
-          base64 -w 0 links.txt > sub.txt
-
-      - name: Create Headers for GitHub Pages
-        run: |
-          # Создаем файл настроек заголовков для серверов GitHub
+          # 1. Очищаем файл со ссылками от мусора Windows
+          sed -i 's/\r//g' links.txt
+          sed -i '/^$/d' links.txt
+          
+          # 2. Создаем временный файл с метаданными прямо в тексте (формат для v2rayNG)
+          echo "#profile-title: 💖MASTERVP-VPN💖" > temp_sub.txt
+          echo "#profile-update-interval: 1" >> temp_sub.txt
+          echo "#subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600" >> temp_sub.txt
+          echo "" >> temp_sub.txt # пустая строка-разделитель
+          
+          # 3. Добавляем туда твои сервера из links.txt
+          cat links.txt >> temp_sub.txt
+          
+          # 4. Кодируем всё это добро вместе в один Base64 файл sub.txt
+          base64 -w 0 temp_sub.txt > sub.txt
+          
+          # На всякий случай дублируем старый headers для совместимости
           echo "/sub.txt" > _headers
           echo "  profile-title: 💖MASTERVP-VPN💖" >> _headers
           echo "  profile-update-interval: 1" >> _headers
@@ -30,6 +42,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sub.txt _headers
-          git diff-index --quiet HEAD || git commit -m "Обновление подписки и заголовков"
+          git diff-index --quiet HEAD || git commit -m "Зашивка профиля прямо в Base64"
           git push
           
