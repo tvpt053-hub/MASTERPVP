@@ -3,5 +3,5 @@
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600
 
-# Перенаправляем приложение на твой секретный список серверов:
+# Указываем приложению, откуда брать голый текстовый список серверов:
 profile-web-page: https://raw.githubusercontent.com/tvpt053-hub/MASTERPVP/refs/heads/main/vpn.txtMASTER
