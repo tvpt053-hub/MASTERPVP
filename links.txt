@@ -1,4 +1,4 @@
-vless://00000000-0000-0000-0000-000000000000@127.0.0.1:0?encryption=none&security=none#👇👇 ТОП СЕРВЕРА LTE(С ОБХОДОМ ГЛУШЫЛОК)👇👇
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:0?encryption=none&security=none#👇👇 ТОП СЕРВЕРА LTE👇👇
 
 vless://56f227f2-3219-4adc-9c0c-9667080cd216@217.16.27.155:6444?mode=auto&path=%2F&security=reality&encryption=none&pbk=kFiHVL1rkURP6u8UVc0v7L_9uYiEKK3YaQak51nxuXY&fp=qq&spx=%2F&allowinsecure=0&type=xhttp&sni=ads.x5.ru&sid=bad5722c72a038#LTE-Финляндия MASTERPVP❤️VPN
 vless://56f227f2-3219-4adc-9c0c-9667080cd216@217.16.27.155:6444?mode=auto&path=%2F&security=reality&encryption=none&pbk=kFiHVL1rkURP6u8UVc0v7L_9uYiEKK3YaQak51nxuXY&fp=qq&spx=%2F&allowinsecure=0&type=xhttp&sni=ads.x5.ru&sid=bad5722c72a038&xmux=maxConcurrency=8&noSSEHeader=true#LTE-Финляндия [FAST] MASTERPVP❤️VPN
@@ -20,7 +20,7 @@ vless://d60caebe-4615-4745-bc5b-85769816689c@185.22.235.29:443?security=reality&
 vless://d60caebe-4615-4745-bc5b-85769816689c@185.22.235.29:443?security=reality&encryption=none&pbk=pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U&headerType=none&fp=qq&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=m.vk.com&sid=b2a6e3d42f05c3d1&mux=true&protocol=multiplex#LTE-Великобритания [FAST] MASTERPVP❤️VPN
 vless://56f227f2-3219-4adc-9c0c-9667080cd216@62.152.56.8:6443?security=reality&encryption=none&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=bad5722c72a038#LTE-Польша MASTERPVP❤️VPN
 vless://56f227f2-3219-4adc-9c0c-9667080cd216@62.152.56.8:6443?security=reality&encryption=none&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=bad5722c72a038&mux=true&protocol=multiplex#LTE-Польша [FAST] MASTERPVP❤️VPN
-vless://00000000-0000-0000-0000-000000000000@127.0.0.1:0?encryption=none&security=none#👇👇 СЕРВЕРА ДЛЯ ИГР С НИЗКИМ ПИНГОМ 👇👇
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:0?encryption=none&security=none#👇👇 СЕРВЕРА С НИЗКИМ ПИНГОМ 👇👇
 
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@50.7.157.246:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=de.quattro-tech.ru&sid=43dcff53849b81e6#%F0%9F%87%A9%F0%9F%87%AA+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F+Stable+%7C+MASTERPVP%E2%9D%A4%EF%B8%8FVPN
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@50.7.157.246:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=de.quattro-tech.ru&sid=43dcff53849b81e6#%F0%9F%87%A9%F0%9F%87%AA+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F+%7C+MASTERPVP%E2%9D%A4%EF%B8%8FVPN
@@ -36,7 +36,7 @@ vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@144.31.90.44:443?encryption=none&fl
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ee.quattro-tech.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#🇪🇪 Эстония #1
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.223.171.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ee.quattro-tech.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#🇪🇪 Эстония #2
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE-эстония/MASTERPVP
-vless://00000000-0000-0000-0000-000000000000@127.0.0.1:0?encryption=none&security=none#👇👇 СЕРВЕРА НА СЛУЧАЙ ЕСЛИ ДРУГИЕ ПЕРЕСТАЛИ РАБОТАТЬ   👇👇
+vless://00000000-0000-0000-0000-000000000000@127.0.0.1:0?encryption=none&security=none#👇👇 СЕРВЕРА НА ВСЯКИЙ СЛУЧАЙ👇👇
 
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@85.192.49.141:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE/Финляндия
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@185.215.184.74:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rutube.ru&fp=firefox&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#LTE-эстония low ping
