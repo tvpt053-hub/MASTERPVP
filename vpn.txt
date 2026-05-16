@@ -1,6 +1,6 @@
  #profile-title: MASTERPVP-VPN
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240; expire=2130541200
+#subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600
 
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@198.16.113.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fr.quattro-tech.ru&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#🇫🇷 LTE Франция
 vless://33e9f342-d9c0-4343-bdd3-4b1ffe37042d@144.31.90.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi.quattro-tech.ru&fp=qq&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6&type=tcp#⭐🇫🇮 Финляндия
