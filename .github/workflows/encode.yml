@@ -1,4 +1,4 @@
-name: Encode VLESS to Base64 with Embedded Profile
+name: Encode VLESS to Base64 with Headers
 
 on:
   push:
@@ -13,35 +13,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Prepare and Encode Subscription
+      - name: Build and Encode Subscription
         run: |
-          # 1. Очищаем файл со ссылками от мусора Windows
+          # 1. Очищаем твой файл links.txt от скрытого мусора Windows
           sed -i 's/\r//g' links.txt
           sed -i '/^$/d' links.txt
           
-          # 2. Создаем временный файл с метаданными прямо в тексте (формат для v2rayNG)
-          echo "#profile-title: 💖MASTERVP-VPN💖" > temp_sub.txt
-          echo "#profile-update-interval: 1" >> temp_sub.txt
-          echo "#subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600" >> temp_sub.txt
-          echo "" >> temp_sub.txt # пустая строка-разделитель
+          # 2. Создаем правильную структуру подписки в одном временном файле
+          echo "#PROFILE" > temp.txt
+          echo "#profile-title: 💖MASTERVP-VPN💖" >> temp.txt
+          echo "#profile-update-interval: 1" >> temp.txt
+          echo "#subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600" >> temp.txt
+          echo "" >> temp.txt
           
-          # 3. Добавляем туда твои сервера из links.txt
-          cat links.txt >> temp_sub.txt
+          # 3. Добавляем твои чистые сервера из links.txt снизу
+          cat links.txt >> temp.txt
           
-          # 4. Кодируем всё это добро вместе в один Base64 файл sub.txt
-          base64 -w 0 temp_sub.txt > sub.txt
-          
-          # На всякий случай дублируем старый headers для совместимости
-          echo "/sub.txt" > _headers
-          echo "  profile-title: 💖MASTERVP-VPN💖" >> _headers
-          echo "  profile-update-interval: 1" >> _headers
-          echo "  subscription-userinfo: upload=0; download=0; total=10737418240; expire=1781481600" >> _headers
+          # 4. Кодируем всё это дело в твой привычный sub.txt
+          base64 -w 0 temp.txt > sub.txt
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add sub.txt _headers
-          git diff-index --quiet HEAD || git commit -m "Зашивка профиля прямо в Base64"
+          git add sub.txt
+          git diff-index --quiet HEAD || git commit -m "Исправление нативных плашек внутри Base64"
           git push
           
